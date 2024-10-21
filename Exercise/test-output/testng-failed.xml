@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.TC3_verifySearchOnEmployeeClaim">
+        <methods>
+          <include name="navigateToClaimPage"/>
+          <include name="setUp"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="verifySearchOnEmployeeClaim" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.TC3_verifySearchOnEmployeeClaim -->
+      <class name="tests.TC4_TestAPI">
+        <methods>
+          <include name="setUp"/>
+          <include name="testApi" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.TC4_TestAPI -->
+      <class name="tests.TC2_VerifyChangeCorporateBranding">
+        <methods>
+          <include name="verifyChangeCoporateBrandingWithIncorrectFile" invocation-numbers="0"/>
+          <include name="verifyChangeCoporateBrandingWithCorrectFile" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="navigateToAdmin"/>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.TC2_VerifyChangeCorporateBranding -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
